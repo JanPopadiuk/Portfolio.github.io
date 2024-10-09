@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Zet En</title>
+    <link rel="stylesheet" href="SEZN.css">
+</head>
+<body>
+    <h1 id="header">Elektroniczne Zakłady Nuklearne</h1>
+    <p id="tekst"></p>
+    <br>
+    <a href="https://ezn.edu.pl/">Strona szkoły</a>
+    <br>
+    
+    <br>
+    <a href="https://www.youtube.com/watch?v=SDwUYWhpZ58">Krótki film o szkole</a> <br>
+    <button onclick="tekst()">Dowiedz się wiecej o założeniu szkoły</button> <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Wroclaw-EZN_Braniborska.jpg" width="40%">
+    
+    <img src="https://ezn.edu.pl/wp-content/uploads/2019/03/sala_205_zd_2.jpg"width="40%">
+    <br>
+    <footer>Jan Popadiuk</footer>
+    <script>
+        function tekst(){
+        let tekst = "29 listopada 1963 roku uroczystego otwarcia Elektronicznych Zakładów Naukowych Ministerstwa Przemysłu Ciężkiego dokonał profesor Bolesław Iwaszkiewicz.";
+            document.getElementById("tekst").innerHTML = tekst;
+        }
+    </script>
+
+
+
+    
+</body>
+</html>

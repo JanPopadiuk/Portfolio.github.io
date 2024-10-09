@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona główna</a></li>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#projects">Projekty</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="flex-container">
+            <div class="intro">
+                <h1>Moje Portfolio</h1>
+                <p>Jan Popadiuk</p>
+                <button>Więcej</button>
+            </div>
+        </section>
+
+        <section id="about" class="grid-container">
+            <div class="about">
+                <h2>O mnie</h2>
+                <p>Jestem aspirującym programistą podczas edukacji w cenionym Technikum nr. 10 we Wrocławiu</p>
+            </div>
+            <div class="tech">
+                <h2>Technologie które znam</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React & Node.js</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Moje Projekty</h2>
+            <div class="projects-grid">
+                <div class="project1">
+                    <h3>Strona z okazji 60-cio lecia EZN</h3>
+                    <p>Używając HTML & CSS</p>
+                    <button onclick="document.location='60lat/EZN60.html'">Przejdź do projektu</button>
+                </div>
+                <div class="project2">
+                    <h3>Strona opisująca historię mysliwca F/A-18 Hornet</h3>
+                    <p>Używając HTML & CSS</p>
+                    <button onclick="document.location='fa18/hotel.html'">Przejdź do projektu</button>
+                </div>
+                <div class="project">
+                    <h3>Projekt 3</h3>
+                    <p>Skonczyly mi sie projekty</p>
+                    <button>Przejdz do projektu</button>
+                </div>
+                <div class="project">
+                    <h3>Projekt 4</h3>
+                    <p>Skonczyly mi sie projekty</p>
+                    <button>Przejdz do projektu</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Portfolio (licencjonowane przez: Ja)   Znajdz mnie na: <a href="#">GitHub</a></p>
+    </footer>
+</body>
+</html>
